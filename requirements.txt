@@ -1,0 +1,18 @@
+# 微信AI自动回复机器人 - Python依赖包
+
+# 核心依赖
+pillow>=9.0.0              # 图像处理
+pytesseract>=0.3.10        # OCR文字识别
+pyautogui>=0.9.53          # UI自动化（鼠标键盘操作）
+pygetwindow>=0.0.9         # 窗口管理
+pyperclip>=1.8.2           # 剪贴板操作（支持中文输入）
+
+# AI模型调用
+openai>=1.0.0              # DeepSeek API客户端（兼容OpenAI SDK）
+
+# 可选依赖（提升性能）
+# opencv-python>=4.5.0     # 图像预处理（提高OCR准确率）
+# paddleocr>=2.6.0         # 更准确的OCR引擎（可替代tesseract）
+
+# 安装命令：
+# pip install -r requirements.txt
